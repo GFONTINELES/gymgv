@@ -1,0 +1,13 @@
+{
+  "name": "treino-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA pessoal para registrar treinos e acompanhar a evolução",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node tests/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
